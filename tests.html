@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тести</title>
+
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Test4u</a>
+
+            <div class="navbar-wrap">
+                <ul class="navbar-menu">
+                    <li><a href="aboutus.html">Про нас</a></li>
+                    <li><a href="tests.html">Тести</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                </ul>
+                <a href="#" class="callback" id="open_pop_up">Вхід І Реєстрація</a>
+			<div class="pop_up" id="pop_up_open">
+				<div class="pop_up_conatainer">
+					<div class="pop_up_body" id="pop_up_body">
+					<p>Введіть дані для входу або реєстрації</p>
+					<form action="">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Пароль">
+						<button>Увійти або Зареєструватись</button>
+					</form>
+                        <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                        </div>
+                    </div>
+                </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            var openPopUpBtn = document.getElementById("open_pop_up");
+                            var popUp = document.getElementById("pop_up_open");
+                            var closePopUpBtn = document.getElementById("pop_up_close");
+                
+                            openPopUpBtn.addEventListener("click", function() {
+                                popUp.style.display = "block";
+                            });
+                
+                            closePopUpBtn.addEventListener("click", function() {
+                                popUp.style.display = "none";
+                            });
+                        });
+                    </script>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product">
+                    <div class="box">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-vector/maths-realistic-chalkboard-background_23-2148159115.jpg?size=626&ext=jpg&ga=GA1.1.1334773548.1716376902&semt=ais_user" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Математика шкільна програма</h3>
+
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                        </ul>
+
+                        <div class="info-test">
+                            <a href="math-test.html">
+                                <button class="start-test"> <ion-icon name="play-circle-outline"></ion-icon>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product">
+                    <div class="box">
+                        <div class="image">
+                            <img src="https://www.bsmu.edu.ua/wp-content/uploads/2023/10/003axj-dbc4.jpg" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Українська мова шкільна програма</h3>
+
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                        </ul>
+
+                        <div class="info-test">
+                            <a href="ukr-test.html">
+                                <button class="start-test"> <ion-icon name="play-circle-outline"></ion-icon>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product">
+                    <div class="box">
+                        <div class="image">
+                            <img src="https://st2.depositphotos.com/5448780/9386/v/450/depositphotos_93861256-stock-illustration-hand-drawn-vector-set-with.jpg" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Біологія шкільна програма підготовка</h3>
+
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                        </ul>
+
+                        <div class="info-test">
+                            <a href="bio-test.html">
+                                <button class="start-test"> <ion-icon name="play-circle-outline"></ion-icon>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product">
+                    <div class="box">
+                        <div class="image">
+                            <img src="https://medialiteracy.org.ua/wp-content/uploads/2022/07/02.jpg" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Хімія шкільна програма підготовка</h3>
+
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                        </ul>
+
+                        <div class="info-test">
+                            <a href="chem-test.html">
+                            <button class="start-test"> <ion-icon name="play-circle-outline"></ion-icon>
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test4u:ChemTest</title>
+
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html"class="navbar-brand">Test4u</a>
+
+			<div class="navbar-wrap">
+				<u1 class="navbar-menu">
+				<li><a href="aboutus.html">Про нас</a></li>
+				<li><a href="tests.html">Тести</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</u1>
+			<a href="#" class="callback" id="open_pop_up">Вхід І Реєстрація</a>
+			<div class="pop_up" id="pop_up_open">
+				<div class="pop_up_conatainer">
+					<div class="pop_up_body" id="pop_up_body">
+					<p>Введіть дані для входу або реєстрації</p>
+					<form action="">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Пароль">
+						<button>Увійти або Зареєструватись</button>
+					</form>
+					<div class="pop_up_close" id="pop_up_close">&#10006</div>
+					</div>
+				</div>
+			</div>
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						var openPopUpBtn = document.getElementById("open_pop_up");
+						var popUp = document.getElementById("pop_up_open");
+						var closePopUpBtn = document.getElementById("pop_up_close");
+			
+						openPopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "block";
+						});
+			
+						closePopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "none";
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</nav>
+    
+	<div>
+		<div class="test-que" style="text-align: center; margin-top: 5px;">
+			<h1>Запитання 1</h1>
+		</div>
+	<h1 style="font-size: 22px; text-align: center;">Укажіть символ хімічного елемента, атомами якого утворена молекула aзоту.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[0]" value="0" id="test_0_0" /> <label for="test_0_0"><b>As</b></label></li>
+		<li><input type="radio" name="test[0]" value="0" id="test_0_1" /> <label for="test_0_1"><b>At</b></label></li>
+		<li><input type="radio" name="test[0]" value="1" id="test_0_2" /> <label for="test_0_2"><b>N</b></label></li> <!-- answ -->
+		<li><input type="radio" name="test[0]" value="0" id="test_0_3" /> <label for="test_0_3"><b>Ni</b></label></li>
+</div>
+<div>
+
+	<div class="test-que" style="text-align: center;">
+		<h1>Запитання 2</h1>
+	</div>
+<h1 style="font-size: 22px; text-align: center;">Безбарвну прозору рідину <b>X</b> нагрівали у відкритій посудині. Твердий залишок після нагрівання – калій хлорид. Рідина 
+    <b>X</b> це</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[1]" value="0" id="test_1_0" /> <label for="test_1_0">чиста речовина</label></li>
+		<li><input type="radio" name="test[1]" value="0" id="test_1_1" /> <label for="test_1_1">неоднорідна суміш</label></li>
+		<li><input type="radio" name="test[1]" value="1" id="test_1_2" /> <label for="test_1_2">істинний розчин</label></li> <!-- answ -->
+		<li><input type="radio" name="test[1]" value="0" id="test_1_3" /> <label for="test_1_3">колоїдний розчин</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 3</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Укажіть назву сполуки, складниками якої є ЛИШЕ неметалічні елементи.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[2]" value="0" id="test_2_0" /> <label for="test_2_0">натрій гідрогенкарбонат</label></li>
+		<li><input type="radio" name="test[2]" value="1" id="test_2_1" /> <label for="test_2_1">гідроген пероксид</label></li> <!-- answ -->
+		<li><input type="radio" name="test[2]" value="0" id="test_2_2" /> <label for="test_2_2">кальцій етаноат</label></li>
+		<li><input type="radio" name="test[2]" value="0" id="test_2_3" /> <label for="test_2_3">літій фенолят</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 4</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Середовище водного розчину солі <b>X</b> лужне. Унаслідок доливання до нього водного розчину плюмбум(ІІ) нітрату утворився осад середньої солі. Сіль 
+    <b>X</b> це</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[3]" value="0" id="test_3_0" /> <label for="test_3_0">цинк сульфат</label></li>
+		<li><input type="radio" name="test[3]" value="0" id="test_3_1" /> <label for="test_3_1">калій етаноат</label></li>
+		<li><input type="radio" name="test[3]" value="1" id="test_3_2" /> <label for="test_3_2">натрій сульфід</label></li> <!-- answ -->
+		<li><input type="radio" name="test[3]" value="0" id="test_3_3" /> <label for="test_3_3">амоній нітрат</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 5</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">У складі молекули насиченого ациклічного вуглеводню гептакозану <b>56</b> атомів Гідрогену. Укажіть кількість атомів Карбону в його молекулі.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[4]" value="0" id="test_4_0" /> <label for="test_4_0">17</label></li>
+		<li><input type="radio" name="test[4]" value="1" id="test_4_1" /> <label for="test_4_1">27</label></li>  <!-- answ -->
+		<li><input type="radio" name="test[4]" value="0" id="test_4_2" /> <label for="test_4_2">28</label></li>
+		<li><input type="radio" name="test[4]" value="0" id="test_4_3" /> <label for="test_4_3">56</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 6</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Тристеарат із триолеату добувають</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[5]" value="0" id="test_5_0" /> <label for="test_5_0">гідратацією</label></li>
+		<li><input type="radio" name="test[5]" value="1" id="test_5_1" /> <label for="test_5_1">гідруванням</label></li> <!-- answ -->
+		<li><input type="radio" name="test[5]" value="0" id="test_5_2" /> <label for="test_5_2">дегідратацією</label></li>
+		<li><input type="radio" name="test[5]" value="0" id="test_5_3" /> <label for="test_5_3">дегідруванням</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 7</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Укажіть пропущені слова, позначені цифрами 1 і 2 в реченні: «Яєчний білок під час ___1___ реакції з купрум(ІІ) гідроксидом за надлишку лугу утворює сполуку ___2___ кольору».</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[6]" value="0" id="test_6_0" /> <label for="test_6_0">1 – ксантопротеїнової; 2 – жовтого</label></li>
+		<li><input type="radio" name="test[6]" value="0" id="test_6_1" /> <label for="test_6_1">1 – ксантопротеїнової; 2 – фіолетового</label></li>
+		<li><input type="radio" name="test[6]" value="0" id="test_6_2" /> <label for="test_6_2">1 – біуретової; 2 – жовтого</label></li> 
+		<li><input type="radio" name="test[6]" value="1" id="test_6_3" /> <label for="test_6_3">1 – біуретової; 2 – фіолетового</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 8</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Обчисліть кількість речовини (моль) етену об’ємом <b>448</b> л (н. у.).</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[7]" value="0" id="test_7_0" /> <label for="test_7_0">15</label></li>
+		<li><input type="radio" name="test[7]" value="0" id="test_7_1" /> <label for="test_7_1">42</label></li>
+		<li><input type="radio" name="test[7]" value="0" id="test_7_2" /> <label for="test_7_2">45</label></li>
+		<li><input type="radio" name="test[7]" value="1" id="test_7_3" /> <label for="test_7_3">20</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 9</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Укажіть назву неметалічного елемента.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[8]" value="0" id="test_8_0" /> <label for="test_8_0">Калій</label></li>
+		<li><input type="radio" name="test[8]" value="0" id="test_8_1" /> <label for="test_8_1">Кальцій</label></li>
+		<li><input type="radio" name="test[8]" value="1" id="test_8_2" /> <label for="test_8_2">Карбон</label></li>  <!-- answ -->
+		<li><input type="radio" name="test[8]" value="0" id="test_8_3" /> <label for="test_8_3">Купрум</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 10</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Чистою речовиною є</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[9]" value="0" id="test_9_0" /> <label for="test_9_0">бензин</label></li>
+		<li><input type="radio" name="test[9]" value="1" id="test_9_1" /> <label for="test_9_1">водень</label></li> <!-- answ -->
+		<li><input type="radio" name="test[9]" value="0" id="test_9_2" /> <label for="test_9_2">ґрунт</label></li>
+		<li><input type="radio" name="test[9]" value="0" id="test_9_3" /> <label for="test_9_3">повітря</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 11</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Укажіть правильне твердження щодо амоніаку.</h1>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[10]" value="0" id="test_10_0" /> <label for="test_10_0">не має запаху</label></li>
+		<li><input type="radio" name="test[10]" value="0" id="test_10_1" /> <label for="test_10_1">утворює лише кислі солі</label></li>
+		<li><input type="radio" name="test[10]" value="0" id="test_10_2" /> <label for="test_10_2">є простою речовиною</label></li>
+		<li><input type="radio" name="test[10]" value="1" id="test_10_3" /> <label for="test_10_3">реагує з киснем</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 12</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Укажіть із-поміж наведених правильне твердження.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[11]" value="1" id="test_11_0" /> <label for="test_11_0">Окисненням етанолу добувають етаналь.</label></li> <!-- answ -->
+		<li><input type="radio" name="test[11]" value="0" id="test_11_1" /> <label for="test_11_1">Відновленням етанолу добувають етанову кислоту</label></li>
+		<li><input type="radio" name="test[11]" value="0" id="test_11_2" /> <label for="test_11_2">Етанол й етанова кислота належать до одного гомологічного ряду</label></li>
+		<li><input type="radio" name="test[11]" value="0" id="test_11_3" /> <label for="test_11_3">Молекули етанолу й етаналю містять однакову кількість атомів.</label></li>
+	</div>
+</div>
+<div class="calculate-Button">
+    <button id="calculateButton">Підрахувати бали</button>
+</div>
+	<div id="result"></div>
+
+<script>
+    document.getElementById("calculateButton").addEventListener("click", function() {
+        var correctAnswers = 0;
+
+        // Loop through each question
+        for (var i = 0; i <= 11; i++) {
+            var radioButtons = document.getElementsByName("test[" + i + "]");
+
+            // Loop through each radio button in the question
+            for (var j = 0; j < radioButtons.length; j++) {
+                if (radioButtons[j].checked && radioButtons[j].value === "1") {
+                    correctAnswers++;
+                    break;
+                }
+            }
+        }
+
+        // Display the number of correct answers on the screen
+        document.getElementById("result").textContent = "Правильні відповіді: " + correctAnswers;
+    });
+</script>

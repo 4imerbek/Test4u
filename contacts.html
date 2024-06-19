@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test4u</title>
+
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html"class="navbar-brand">Test4u</a>
+
+			<div class="navbar-wrap">
+				<u1 class="navbar-menu">
+				<li><a href="aboutus.html">Про нас</a></li>
+				<li><a href="tests.html">Тести</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</u1>
+			<a href="#" class="callback" id="open_pop_up">Вхід І Реєстрація</a>
+			<div class="pop_up" id="pop_up_open">
+				<div class="pop_up_conatainer">
+					<div class="pop_up_body" id="pop_up_body">
+					<p>Введіть дані для входу або реєстрації</p>
+					<form action="">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Пароль">
+						<button>Увійти або Зареєструватись</button>
+					</form>
+					<div class="pop_up_close" id="pop_up_close">&#10006</div>
+					</div>
+				</div>
+			</div>
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						var openPopUpBtn = document.getElementById("open_pop_up");
+						var popUp = document.getElementById("pop_up_open");
+						var closePopUpBtn = document.getElementById("pop_up_close");
+			
+						openPopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "block";
+						});
+			
+						closePopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "none";
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</nav>
+	<div class="cont-info">
+         <h1 style="text-align: center;">Контакти</h1>
+        <h1 style="text-align: center; font-size: 35px; "><b>Час роботи Служби підтримки: 9:00 – 19:00</b></h1>
+            <h1 style="font-size: 25px;text-align: center;">в робочі дні (понеділок-п'ятниця)
+             Неодмінно дочекайтеся відповіді менеджера, ми турбуємося, аби кожен запит отримав вичерпну відповідь.</h1>
+	</div>
+        </div>
+		<div class="container-1">
+			<div class="row">
+			  <div class="col">
+				<a style="text-decoration: none;" href="index.html">Test4u@gmail.com</a>
+			  </div>
+			  <div class="col">
+				<a style="text-decoration: none;" href="">Наш Instagram</a>
+			  </div>
+			</div>
+		</div>
+	<div class="container-2">
+		<div class="number">
+		<h2>+380000000123</h2>
+		</div>
+	</div>
+			

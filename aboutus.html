@@ -1,0 +1,78 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Про нас</title>
+
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html"class="navbar-brand">Test4u</a>
+
+			<div class="navbar-wrap">
+				<u1 class="navbar-menu">
+				<li><a href="aboutus.html">Про нас</a></li>
+				<li><a href="tests.html">Тести</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</u1>
+			<a href="#" class="callback" id="open_pop_up">Вхід І Реєстрація</a>
+			<div class="pop_up" id="pop_up_open">
+				<div class="pop_up_conatainer">
+					<div class="pop_up_body" id="pop_up_body">
+					<p>Введіть дані для входу або реєстрації</p>
+					<form action="">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Пароль">
+						<button>Увійти або Зареєструватись</button>
+					</form>
+					<div class="pop_up_close" id="pop_up_close">&#10006</div>
+					</div>
+				</div>
+			</div>
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						var openPopUpBtn = document.getElementById("open_pop_up");
+						var popUp = document.getElementById("pop_up_open");
+						var closePopUpBtn = document.getElementById("pop_up_close");
+			
+						openPopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "block";
+						});
+			
+						closePopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "none";
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</nav>
+	<header class="header" style="background-image: url(jpeg/header.jpg);">
+			<div class="container">
+				<div class="row-about-us">
+	
+					<div class="about-us-header-content">
+						<h1>Ласкаво просимо до Test4u
+Ми - команда професіоналів, яка спеціалізується на створенні, адмініструванні та аналізі звичайних тестів. Наш сервіс допомагає освітнім установам, підприємствам і приватним особам ефективно перевіряти знання, навички та компетенції.
+
+Наша Місія
+Наша місія - зробити процес тестування максимально простим, доступним і ефективним для всіх користувачів. Ми прагнемо забезпечити високу якість тестових матеріалів і зручність використання нашої платформи.Наша Команда
+Наш колектив складається з кваліфікованих фахівців з багаторічним досвідом роботи в освіті та IT. Ми об'єднали наші знання та вміння для створення платформи, яка допомагає нашим клієнтам досягати своїх цілей.
+						</h1>
+
+					</div>
+	
+				</div>
+			</div>
+			<div class="overlay"></div>
+		</header>	
+		</body>

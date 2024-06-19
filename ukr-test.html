@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test4u:UkrlangTest</title>
+
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html"class="navbar-brand">Test4u</a>
+
+			<div class="navbar-wrap">
+				<u1 class="navbar-menu">
+				<li><a href="aboutus.html">Про нас</a></li>
+				<li><a href="tests.html">Тести</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</u1>
+			<a href="#" class="callback" id="open_pop_up">Вхід І Реєстрація</a>
+			<div class="pop_up" id="pop_up_open">
+				<div class="pop_up_conatainer">
+					<div class="pop_up_body" id="pop_up_body">
+					<p>Введіть дані для входу або реєстрації</p>
+					<form action="">
+						<input type="text" placeholder="E-mail">
+						<input type="text" placeholder="Пароль">
+						<button>Увійти або Зареєструватись</button>
+					</form>
+					<div class="pop_up_close" id="pop_up_close">&#10006</div>
+					</div>
+				</div>
+			</div>
+				<script>
+					document.addEventListener("DOMContentLoaded", function() {
+						var openPopUpBtn = document.getElementById("open_pop_up");
+						var popUp = document.getElementById("pop_up_open");
+						var closePopUpBtn = document.getElementById("pop_up_close");
+			
+						openPopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "block";
+						});
+			
+						closePopUpBtn.addEventListener("click", function() {
+							popUp.style.display = "none";
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</nav>
+    
+	<div>
+		<div class="test-que" style="text-align: center; margin-top: 5px;">
+			<h1>Запитання 1</h1>
+		</div>
+	<h1 style="font-size: 22px; text-align: center;">Звук [д] треба вимовляти на місці пропуску в усіх словах рядка</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[0]" value="0" id="test_0_0" /> <label for="test_0_0">ві..бити, проїз..ний</label></li>
+		<li><input type="radio" name="test[0]" value="0" id="test_0_1" /> <label for="test_0_1">фу..бол, зорепа..</label></li>
+		<li><input type="radio" name="test[0]" value="0" id="test_0_2" /> <label for="test_0_2">б..жола, з..авна</label></li>
+		<li><input type="radio" name="test[0]" value="1" id="test_0_3" /> <label for="test_0_3">по..якував, ..ружба</label></li> <!-- answ -->
+	</div>
+</div>
+<div>
+
+	<div class="test-que" style="text-align: center;">
+		<h1>Запитання 2</h1>
+	</div>
+<h1 style="font-size: 22px; text-align: center;">Правильно виділено букви на позначення наголошених голосних у всіх словах, ОКРІМ</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[1]" value="1" id="test_1_0" /> <label for="test_1_0">к<b>у</b>рятина у ф<b>o</b>льзі, кр<b>o</b>їти фарт<b>у</b>х</label></li> <!-- answ -->
+		<li><input type="radio" name="test[1]" value="0" id="test_1_1" /> <label for="test_1_1">укра<b>ї</b>нський літ<b>о</b>пис, добов<b>і</b> в<b>и</b>трати</label></li>
+		<li><input type="radio" name="test[1]" value="0" id="test_1_2" /> <label for="test_1_2">заірж<b>а</b>віле св<b>е</b>рдло, привезт<b>и</b> р<b>а</b>зом</label></li>
+		<li><input type="radio" name="test[1]" value="0" id="test_1_3" /> <label for="test_1_3">чергов<b>е</b> упод<b>о</b>бання, пі<b>а</b>ла з піц<b>е</b>рії</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 3</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Коли <b>мален(1)кий</b> соловейко <b>переконуєт(2)ся</b>, що все йде за його сценарієм, то пісню свою починає <b>повіл(3)но</b>, і вона на невидимій <b>ниточ(4)ці</b> зринає в далеку височінь.
+
+	М’який знак треба писати на місці всіх цифр, ОКРІМ</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[2]" value="0" id="test_2_0" /> <label for="test_2_0">1</label></li>
+		<li><input type="radio" name="test[2]" value="0" id="test_2_1" /> <label for="test_2_1">2</label></li>
+		<li><input type="radio" name="test[2]" value="0" id="test_2_2" /> <label for="test_2_2">3</label></li>
+		<li><input type="radio" name="test[2]" value="1" id="test_2_3" /> <label for="test_2_3">4</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 4</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Подвоєні букви -нн- треба писати на місці пропуску в усіх словах рядка</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[3]" value="1" id="test_3_0" /> <label for="test_3_0">моното..ий, бездога..ий, ешело..ий</label></li> <!-- answ -->
+		<li><input type="radio" name="test[3]" value="0" id="test_3_1" /> <label for="test_3_1">журавли..ий, страше..ий, студе..ий</label></li>
+		<li><input type="radio" name="test[3]" value="0" id="test_3_2" /> <label for="test_3_2">свяще..ий, довгожда..ий, безіме..ий</label></li>
+		<li><input type="radio" name="test[3]" value="0" id="test_3_3" /> <label for="test_3_3">скля..ий, електро..ий, благослове..ий</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 5</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Апостроф треба писати на місці пропуску в усіх словах рядка</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[4]" value="0" id="test_4_0" /> <label for="test_4_0">відв..язати, дзв..якати, Рейк..явік</label></li>
+		<li><input type="radio" name="test[4]" value="0" id="test_4_1" /> <label for="test_4_1">кон..юнктура, М..юнхен, з..явитися</label></li>
+		<li><input type="radio" name="test[4]" value="0" id="test_4_2" /> <label for="test_4_2">б..юро, пан..європейський, подвір..я</label></li>
+		<li><input type="radio" name="test[4]" value="1" id="test_4_3" /> <label for="test_4_3">верф..ю, возз..єднання, ін..єкція</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 6</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">З дефісом треба писати всі слова в рядку</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[5]" value="0" id="test_5_0" /> <label for="test_5_0">договірно/правовий, культурно/освітній, гостро/критичний, морально/етичний;</label></li>
+		<li><input type="radio" name="test[5]" value="1" id="test_5_1" /> <label for="test_5_1">мідно/червоний, навчально/виробничий, об’ємно/просторовий, оптово/роздрібний.</label></li> <!-- answ -->
+		<li><input type="radio" name="test[5]" value="0" id="test_5_2" /> <label for="test_5_2">житлово/будівельний, військово/повітряний, суспільно/небезпечний, лірико/драматичний;</label></li>
+		<li><input type="radio" name="test[5]" value="0" id="test_5_3" /> <label for="test_5_3">молочно/білий, науково/експериментальний, сільсько/господарський, організаційно/методичний;</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 7</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">НЕ ДОТРИМАНО правил уживання великої букви в рядку</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[6]" value="0" id="test_6_0" /> <label for="test_6_0">Коліївщина, Верховна Рада України, трипільська культура</label></li>
+		<li><input type="radio" name="test[6]" value="0" id="test_6_1" /> <label for="test_6_1">сузір’я Великий Віз, країни Близького Сходу, бог Перун</label></li>
+		<li><input type="radio" name="test[6]" value="1" id="test_6_2" /> <label for="test_6_2">хрестові походи, Ріо-де-Жанейро, Олімпійські Ігри</label></li> <!-- answ -->
+		<li><input type="radio" name="test[6]" value="0" id="test_6_3" /> <label for="test_6_3">доба неоліту, Андріївський узвіз, День будівельника</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 8</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">НЕМАЄ орфографічних помилок у варіанті</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[7]" value="0" id="test_7_0" /> <label for="test_7_0">Запорукою краси та здоров’я насамперед є збалансованний щоденний рацион та оптимальне фізичне навантаження.</label></li>
+		<li><input type="radio" name="test[7]" value="1" id="test_7_1" /> <label for="test_7_1">Вибір продуктів, технологія приготування страв та особливості споживання їх мають бути підпорядковані правилам здорового способу життя.</label></li> <!-- answ -->
+		<li><input type="radio" name="test[7]" value="0" id="test_7_2" /> <label for="test_7_2">Принцип чіткого поділу продуктів на користні та шкідливі об’єднує всі практики здорового харчуваня.</label></li>
+		<li><input type="radio" name="test[7]" value="0" id="test_7_3" /> <label for="test_7_3">Основи повноцінного меню та базові фізичні вправи сьогодні знає чи некожен, хто має бажання почувати себе впевнено за будь яких обставин.</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 9</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">НЕ МАЮТЬ закінчення обидва слова в рядку</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[8]" value="0" id="test_8_0" /> <label for="test_8_0">гордість, вчасно</label></li>
+		<li><input type="radio" name="test[8]" value="0" id="test_8_1" /> <label for="test_8_1">метро, джунглі</label></li>
+		<li><input type="radio" name="test[8]" value="1" id="test_8_2" /> <label for="test_8_2">читаючи, кашне</label></li> <!-- answ -->
+		<li><input type="radio" name="test[8]" value="0" id="test_8_3" /> <label for="test_8_3">розбито, блакить</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 10</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Лексична помилка є в реченні</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[9]" value="0" id="test_9_0" /> <label for="test_9_0">Досвідчені наставники сприяють професійному становленню молодих спеціалістів.</label></li>
+		<li><input type="radio" name="test[9]" value="0" id="test_9_1" /> <label for="test_9_1">Обираючи спеціальність, ураховуйте потреби сучасного суспільства.</label></li>
+		<li><input type="radio" name="test[9]" value="0" id="test_9_2" /> <label for="test_9_2">Надзвичайно важливим чинником у виборі фаху є також мотивація.</label></li>
+		<li><input type="radio" name="test[9]" value="1" id="test_9_3" /> <label for="test_9_3">Беріть участь у різноманітних тренінгах з професіональної орієнтації.</label></li> <!-- answ -->
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 11</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">Українським відповідником до іншомовного слова модерний є. </h1>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[10]" value="1" id="test_10_0" /> <label for="test_10_0">сучасний</label></li> <!-- answ -->
+		<li><input type="radio" name="test[10]" value="0" id="test_10_1" /> <label for="test_10_1">незвичний</label></li>
+		<li><input type="radio" name="test[10]" value="0" id="test_10_2" /> <label for="test_10_2">важливий</label></li>
+		<li><input type="radio" name="test[10]" value="0" id="test_10_3" /> <label for="test_10_3">граничний</label></li>
+	</div>
+</div>
+
+<div class="test-que" style="text-align: center;">
+	<h1>Запитання 12</h1>
+</div>
+<h1 style="font-size: 22px; text-align: center;">У кожній із ______ виробництва нагородами були відзначені ______ підприємці.</h1>
+</div>
+<div>
+	<div class="test-answ">
+		<li><input type="radio" name="test[11]" value="1" id="test_11_0" /> <label for="test_11_0">галузей, найкращі</label></li> <!-- answ -->
+		<li><input type="radio" name="test[11]" value="0" id="test_11_1" /> <label for="test_11_1">галузів, самі кращі</label></li>
+		<li><input type="radio" name="test[11]" value="0" id="test_11_2" /> <label for="test_11_2">галузей, найбільш кращi</label></li>
+		<li><input type="radio" name="test[11]" value="0" id="test_11_3" /> <label for="test_11_3">галузі, якнайкращі</label></li>
+	</div>
+</div>
+<div class="calculate-Button">
+    <button id="calculateButton">Підрахувати бали</button>
+</div>
+	<div id="result"></div>
+
+<script>
+    document.getElementById("calculateButton").addEventListener("click", function() {
+        var correctAnswers = 0;
+
+        // Loop through each question
+        for (var i = 0; i <= 11; i++) {
+            var radioButtons = document.getElementsByName("test[" + i + "]");
+
+            // Loop through each radio button in the question
+            for (var j = 0; j < radioButtons.length; j++) {
+                if (radioButtons[j].checked && radioButtons[j].value === "1") {
+                    correctAnswers++;
+                    break;
+                }
+            }
+        }
+
+        // Display the number of correct answers on the screen
+        document.getElementById("result").textContent = "Правильні відповіді: " + correctAnswers;
+    });
+</script>
